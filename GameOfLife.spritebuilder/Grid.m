@@ -162,7 +162,7 @@ static const int GRID_COLUMNS = 10;
     _totalAlive = numAlive;
     
     if (numAlive == 0) {
-        MainScene.pause();
+        [MainScene pause];
     }
 }
 

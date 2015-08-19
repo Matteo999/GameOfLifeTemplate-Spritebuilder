@@ -10,6 +10,6 @@
 
 @interface MainScene : CCNode
 
--(void)pause;
++(void)pause;
 
 @end
