@@ -8,7 +8,6 @@
 
 #import "Grid.h"
 #import "Creature.h"
-#import "MainScene.h"
 
 // these are variables that cannot be changed
 static const int GRID_ROWS = 8;
@@ -160,10 +159,6 @@ static const int GRID_COLUMNS = 10;
     }
     
     _totalAlive = numAlive;
-    
-    if (numAlive == 0) {
-        [MainScene pause];
-    }
 }
 
 - (BOOL)isIndexValidForX:(int)x andY:(int)y
