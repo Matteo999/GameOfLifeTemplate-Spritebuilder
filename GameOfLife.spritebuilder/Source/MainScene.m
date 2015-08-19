@@ -33,7 +33,11 @@
     [self schedule:@selector(step) interval:0.5f];
 }
 
-+ (void)pause
++ (void)pause {
+    [self pause];
+}
+
+- (void)pause
 {
     [self unschedule:@selector(step)];
 }
